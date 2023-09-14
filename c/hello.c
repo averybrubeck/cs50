@@ -1,4 +1,17 @@
+
+
 int main (void)
 {
-    printf("Hello World!\n");
+   printf("Hello World!\n");
+
+int n =6;
+for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
+
 }
