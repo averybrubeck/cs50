@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-color: #180030;
+    margin: 0;
+    padding: 0;
+}
+ul,
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar {
+    padding: 10px;
+    background-color: black;
+}
+.navItems{
+    display: contents;
+}
+.leftHeader{
+    padding-left: 10px;
+}
+.headerItem{
+    padding: 10px;
+}
+.headerLink{
+    color: rgba(255,255,255,.8);
+    font-family: 'akkurat', sans-serif;
+}
+.downloadButton{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    background: linear-gradient(105.23deg, #01A4FF 33.35%, #01FFC2 115.77%);
+}
+.mainBodyTopContent{
+    display: block ruby;
+}
+.welcomeImage{
+    width: 150px;
+    height: 150px;
+}
