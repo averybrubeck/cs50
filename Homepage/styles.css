@@ -19,15 +19,15 @@ p{
 .navbar {
     padding: 10px;
     background-color: black;
-    width: 100%;
-    height: 100%;
-    max-width: 80rem;
 }
 .navItems{
     display: contents;
 }
 .leftHeader{
     padding-left: 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 .headerItem{
     padding: 10px;
@@ -35,6 +35,11 @@ p{
 .headerLink{
     color: rgba(255,255,255,.8);
     font-family: 'akkurat', sans-serif;
+}
+.headerLogo{
+    width: 50px;
+    height: 50px;
+
 }
 .downloadButton{
     border: none;
