@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-image: linear-gradient(to bottom, #180030, #141414, white);
+    background: linear-gradient(to bottom, #180030, #141414, white);
     margin: 0;
     padding: 0;
 }
@@ -41,12 +41,15 @@ p{
     height: 50px;
 
 }
-.downloadButton{
+#downloadButton{
     border: none;
     border-radius: 5px;
     padding: 10px;
     margin-right: 20px;
     background: linear-gradient(105.23deg, #01A4FF 33.35%, #01FFC2 115.77%);
+}
+#imageToDownload{
+    display: none;
 }
 .mainBodyTopContent{
     display: flex;
