@@ -11,6 +11,11 @@ li{
 a{
     text-decoration: none;
 }
+h3,
+h1,
+p{
+    color: rgba(255,255,255,.8);
+}
 .navbar {
     padding: 10px;
     background-color: black;
@@ -37,8 +42,10 @@ a{
 }
 .mainBodyTopContent{
     display: block ruby;
+    padding-top: 20px;
 }
 .welcomeImage{
     width: 150px;
     height: 150px;
 }
+
